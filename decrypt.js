@@ -6,7 +6,7 @@ var pako = require("pako")
 var xxtea = require("xxtea-node");
 
 var FILEPATH = path.resolve('./../');
-var KEY = "cca8da91-f3a3-4b"  //cocoscreator 的 工程加密key
+var KEY = "xxxxxxxx-f3a3-4b"  //cocoscreator 的 工程加密key
 var UNZIP = true                //是否启用压缩
 
 function xxteaDecode(filename){
